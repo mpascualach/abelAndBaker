@@ -1,0 +1,37 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#masthead {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1%;
+    padding-bottom: 10px;
+    margin-bottom: 1%;
+}
+
+#masthead img {
+    position: relative;
+    height: 100%;
+}
+
+.tabs {
+    display: flex;
+}
+
+main {
+    margin-top: 1%;
+    position: absolute;
+    
+}
+
+.abel-tab {
+    margin-right: 40px;
+    text-align: center;
+}
