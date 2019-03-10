@@ -1,0 +1,67 @@
+.row {
+    display: flex;
+  }
+  
+  .projects-holder {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .project {
+    height: 100%;
+    width: 60%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    flex-shrink: 0;
+    position: absolute;
+  }
+  
+  .project img {
+    height: 100%;
+    width: 100%;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+
+  .row {
+    position: relative;
+    height: 480px;
+    width: 100%;
+  }
+
+  .selected {
+    z-index: 1;
+  }
+
+  .super-selected img {
+      -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+      filter: grayscale(0%);
+  }
+
+  #pro-1, #pro-3 {
+    left: 0
+  }
+
+  #pro-2, #pro-4 {
+    right: 0
+  }
+
+  #pro-1 img {
+    border-radius: 5px 0px 0px 0px;
+  }
+
+  #pro-2 img {
+    border-radius: 0px 5px 0px 0px;
+  }
+
+  #pro-3 img {
+    border-radius: 0px 0px 5px 0px;
+  }
+
+  #pro-4 img {
+    border-radius: 0px 0px 5px 0px;
+  }
